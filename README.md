@@ -5,6 +5,6 @@
 1、创建Parcelable实体类
 2、在main目录下新建aidl文件夹，并在这个文件夹下新建所需的.aidl文件（实体类的.aidl+业务所需的.aidl）
 3、创建Service，并在该Service中声明IBinder对象并创建一个Bider对象
-3、在Activity中创建ServerConnection对象，并在onServiceConnected()中获取业务AIDL对象，获取这个对象后可以调用该对象中定义的方法
-4、绑定服务
-5、在onDestroy()中解绑服务
+4、在Activity中创建ServerConnection对象，并在onServiceConnected()中获取业务AIDL对象，获取这个对象后可以调用该对象中定义的方法
+5、绑定服务
+6、在onDestroy()中解绑服务

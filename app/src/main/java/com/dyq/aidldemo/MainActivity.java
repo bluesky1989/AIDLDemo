@@ -12,6 +12,7 @@ import android.util.Log;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
+	//测试
     private static final String TAG="MainActivity";
 
     private ServiceConnection serviceConnection=new ServiceConnection() {
